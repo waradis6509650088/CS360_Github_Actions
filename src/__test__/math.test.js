@@ -1,6 +1,6 @@
 const { add, subtract, multiply} = require('../math.js');
 
-describe('Simple Arithmetic', () => {
+describe('Simple Arithmetic tests', () => {
   test('addition', () => {
     expect(add(5, 3)).toBe(8);
   });
